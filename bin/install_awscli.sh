@@ -18,3 +18,5 @@ cat >> ~/.aws/config << EOF
 [default]
 region = $AWS_REGION
 EOF
+
+echo "$INSTALL_DIR"
